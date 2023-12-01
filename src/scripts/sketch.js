@@ -22,26 +22,26 @@ var iaActiveButton;
 
 
 function preload(){
-  trex_running = loadAnimation("./src/images/trex1.png", "./src/images/trex3.png", "./src/images/trex4.png");
-  trex_collided = loadImage("./src/images/trex_collided.png");
+  trex_running = loadAnimation("src/images/trex1.png", "src/images/trex3.png", "src/images/trex4.png");
+  trex_collided = loadImage("src/images/trex_collided.png");
 
-  groundImage = loadImage("./src/images/ground2.png");
+  groundImage = loadImage("src/images/ground2.png");
 
-  cloudImage = loadImage("./src/images/cloud.png");
+  cloudImage = loadImage("src/images/cloud.png");
 
-  obstacle1 = loadImage("./src/images/obstacle1.png");
-  obstacle2 = loadImage("./src/images/obstacle2.png");
-  obstacle3 = loadImage("./src/images/obstacle3.png");
-  obstacle4 = loadImage("./src/images/obstacle4.png");
-  obstacle5 = loadImage("./src/images/obstacle5.png");
-  obstacle6 = loadImage("./src/images/obstacle6.png");
+  obstacle1 = loadImage("src/images/obstacle1.png");
+  obstacle2 = loadImage("src/images/obstacle2.png");
+  obstacle3 = loadImage("src/images/obstacle3.png");
+  obstacle4 = loadImage("src/images/obstacle4.png");
+  obstacle5 = loadImage("src/images/obstacle5.png");
+  obstacle6 = loadImage("src/images/obstacle6.png");
 
-  restartImg = loadImage("./src/images/restart.png");
-  gameOverImg = loadImage("./src/images/gameOver.png");
+  restartImg = loadImage("src/images/restart.png");
+  gameOverImg = loadImage("src/images/gameOver.png");
 
-  soundJump = loadSound("./src/audios/jump.mp3");
-  soundDie = loadSound("./src/audios/die.mp3");
-  soundCheckPoint = loadSound("./src/audios/checkPoint.mp3");
+  soundJump = loadSound("src/audios/jump.mp3");
+  soundDie = loadSound("src/audios/die.mp3");
+  soundCheckPoint = loadSound("src/audios/checkPoint.mp3");
 }
 
 function setup(){
