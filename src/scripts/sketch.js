@@ -122,7 +122,7 @@ function draw(){
     
     
     // movimentação do TRex
-    if((touches.length > 0 || keyDown("space")) && (trex.y >=  150)){
+    if((touches.length > 0 || keyDown("space"))){
       trex.velocityY = -10;
       soundJump.play(); //aula16  
       touches = []
